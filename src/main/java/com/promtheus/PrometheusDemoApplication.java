@@ -11,9 +11,8 @@ public class PrometheusDemoApplication {
 
 	@GetMapping("hello")
 	public String helloEndPoint(){
-		return "hello this is first api";
+		return "hello this is first api,  prometheus example ";
 	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(PrometheusDemoApplication.class, args);
 	}

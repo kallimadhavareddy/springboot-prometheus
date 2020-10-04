@@ -7,11 +7,8 @@ rule_files:
   # - "second.rules"
 
 scrape_configs:
-  - job_name: prometheus
-    static_configs:
-      - targets: ['localhost:9090']
    - job_name: spring-actuator
     metrics_path: '/actuator/prometeus'
     scrape_interval: 5s
     static_configs:
-      - targets: ['172.18.75.33:9090']     
+      - targets: ['172.17.152.241:9090']
