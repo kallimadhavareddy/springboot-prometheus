@@ -1,0 +1,12 @@
+A summery in 9 simple steps
+1. Install docker
+2. Download Spring boot sample from Spring initializer with 3 dependencies
+        Actuator
+        Prometheus
+        Web
+3.update application.properties to collect metrics
+4.Create prometheus.yml with scrap_config
+5.Bring up the spring boot container test the application
+6.pull Prometheus docker image and run docker image as container
+7.pull Grafana docker image in run docker image as container
+8.Setup Prometheus data source in Grafana and view logs
